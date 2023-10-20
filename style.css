@@ -1,0 +1,115 @@
+      body{
+      background-color: #004630;
+      }
+      .div{
+      justify-content: flex-end;
+      }
+      header{
+      position: sticky;
+      top: 0px;
+      }
+
+      h1{
+            color: white;
+      }
+
+      h2{
+            color: white;
+      }
+
+      p{
+            color: white;
+      }
+
+      li{
+            color: white;
+      }
+      
+
+      nav {
+      list-style-type: none;
+      font-size: 2.5rem;
+      position: sticky;
+      display: flex;
+      width: 100%;
+      min-height: 8vh;
+      align-items: center;
+      flex-wrap: wrap;
+      background: #002c1e;
+      justify-content: flex-start;
+      margin: 0%;
+      padding: 0;
+      top: 0%;
+      z-index: 1000;
+      }
+      ul {
+      display: flex;
+      list-style-type: none;
+      z-index: 50000;
+      }
+      li a {
+      display: block;
+      color: white;
+      text-decoration: none;
+      padding: 0 4rem 0 4rem;
+      display: block;
+      z-index: 50000;
+      }
+      .dropdown-content {
+      display: none;
+      position: absolute;
+      background: #E9E9E9;
+      min-width: 20vw;
+      z-index: 1;
+      box-shadow: 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0.2);
+      justify-content: end
+      ;
+      z-index: 500000;
+      }
+    
+      .dropbtn{
+      justify-content: flex-end;
+      } 
+      .dropdown-content a {
+      color: white;
+      padding: 0.8rem 1rem;
+      display: block;
+      text-align: left;
+      z-index: 500000;
+      }
+    
+      .dropdown:hover .dropdown-content {
+      display: block;
+      background: #002c1e ;
+      }
+      .dropdown:hover .dropbutton {
+      background-color:#E9E9E9;
+      color:#00a9c7;
+      }
+      .tcr {
+      width: 250px;
+      margin-left: 2rem;}
+      section{
+      justify-content:flex-end;
+      display: flex;
+      }
+      article{
+      margin-right: 20vw;
+      font-size: large;
+      margin-top: 10vw;
+      }
+      .container{
+      font-size: larger;
+      justify-content: flex-start;
+      }
+
+      footer {
+      display: flex;
+      bottom: 0px;
+      background-color: #002c1e;
+      height: 15vh;
+      width: 100%;
+      font-size: xx-large;
+      justify-content: space-around;
+      }
+     
